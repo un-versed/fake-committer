@@ -1,9 +1,11 @@
 import util from 'util'
-const env = process.env
+import child_process from 'child_process'
 
 class Git {
   static async commit(message, options: { verbose: boolean }) {
-    const exec = util.promisify(require('child_process').exec)
+    const env = process.env
+    const exec = util.promisify(child_process.exec)
+
     try {
       const { stdout, stderr } = await exec(`git commit --allow-empty -m "${message}"`)
 
