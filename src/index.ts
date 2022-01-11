@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import FakeCommiter from './lib/FakeCommiter'
 import chalk from 'chalk'
 import minimist from 'minimist'
