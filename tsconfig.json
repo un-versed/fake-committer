@@ -1,4 +1,6 @@
 {
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "build"],
   "compilerOptions": {
       "module": "commonjs",
       "esModuleInterop": true,
@@ -7,8 +9,6 @@
       "sourceMap": true,
       "outDir": "dist",
       "types": ["node", "jest"],
-      "forceConsistentCasingInFileNames": true,
-      "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
   }
 }
