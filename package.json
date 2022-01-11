@@ -1,4 +1,6 @@
 {
+  "name": "fake-commiter",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/luxon": "^2.0.9",
     "@types/minimist": "^1.2.2",
@@ -12,9 +14,7 @@
     "prettier": "^2.4.1",
     "typescript": "^4.5.4"
   },
-  "name": "fake-commiter",
-  "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
