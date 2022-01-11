@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.test.ts"],
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
       "module": "commonjs",
