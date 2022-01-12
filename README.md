@@ -1,6 +1,9 @@
 # FakeCommitter
 [![npm version](https://img.shields.io/npm/v/fake-committer.svg)](https://www.npmjs.com/package/fake-committer)
 
+![logo](./docs/FakeCommitter.png "FkeCommitter")
+
+
 FakeCommitter is a tool for those who want to be a GITHUB POPSTAR WITH A LOT OF CONTRIBUTIONS DAILY!
 Or maybe you just want to sync your contribution number across accounts (like me). For example: You *NEED* to use a different account 
 to acess your work repositories with a work email, in this case, every commit you make count in another account.
