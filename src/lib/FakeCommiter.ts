@@ -1,16 +1,10 @@
 import GitHub from './GitHub'
 import Git from './Git'
 import { DateTime } from 'luxon'
+import Args from '../interfaces/Args'
 
 class FakeCommiter {
-  args: {
-    u: string // Username
-    t: string // Token
-    n: number | null // Number of Commits
-    from: string
-    to: string
-    verbose: boolean
-  }
+  args: Args
   username: string
   token: string
   desiredNumber: number | null
@@ -18,14 +12,7 @@ class FakeCommiter {
   to: string
   verbose: boolean
 
-  constructor(argv: {
-    u: string
-    t: string
-    n: number | null
-    from: string
-    to: string
-    verbose: boolean
-  }) {
+  constructor(argv: Args) {
     this.args = argv
     this.checkArgs()
     this.setArgs()
