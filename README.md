@@ -114,3 +114,4 @@ $ fake-committer -u <GITHUB_USERNAME> -t <ACCESS_TOKEN> --from "2022-01-09T00:00
 
 ## Todo
 - [ ] Write tests  
+- [ ] Add option to create a custom number of commits
