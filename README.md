@@ -74,6 +74,14 @@ Just run `git push` and the magic is done.
   <td> <code> true </code> </td>
 </tr>
 <tr>
+  <td valign="top"><code>-n</code></td>
+  <td>
+    <p>Specify the number of commits to make.</p>
+    <p>If this option is provided, <code>--from</code> and <code>--to</code> are ignored.</p>
+  </td>
+  <td> <code> false </code> </td>
+</tr>
+<tr>
   <td valign="top"><code>--from</code></td>
   <td>
     <p>A ISO DateTime to fetch contribution data by specific Date range.</p>
@@ -114,4 +122,4 @@ $ fake-committer -u <GITHUB_USERNAME> -t <ACCESS_TOKEN> --from "2022-01-09T00:00
 
 ## Todo
 - [ ] Write tests  
-- [ ] Add option to create a custom number of commits
+- [x] Add option to create a custom number of commits
