@@ -8,6 +8,7 @@ const argv = minimist(process.argv.slice(2))
 const fakeCommiter = new FakeCommiter({
   u: argv.u,
   t: argv.t,
+  n: argv.n,
   from: argv.from,
   to: argv.to,
   verbose: argv.verbose
