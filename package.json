@@ -2,9 +2,7 @@
   "name": "fake-committer",
   "version": "1.0.5",
   "main": "./dist/index.js",
-  "bin": {
-    "fake-committer": "./dist/index.js"
-  },
+  "bin": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
