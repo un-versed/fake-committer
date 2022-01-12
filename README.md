@@ -1,5 +1,5 @@
 # FakeCommitter
-[![npm version](https://img.shields.io/npm/v/fake-committer.svg)](https://www.npmjs.com/package/fake-committer)
+[![npm version](https://img.shields.io/npm/v/fake-committer)](https://www.npmjs.com/package/fake-committer)
 
 ![logo](https://github.com/un-versed/fake-committer/raw/master/docs/FakeCommitter.png "FakeCommitter")
 
