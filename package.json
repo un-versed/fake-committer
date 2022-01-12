@@ -15,8 +15,11 @@
     "test": "jest --config jest.config.js"
   },
   "author": "Gustavo Henrique <gu.bat98@gmail.com>",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/un-versed/fake-committer"
+  },
+  "description": "FakeCommitter is a tool for those who want to be a GITHUB POPSTAR WITH A LOT OF CONTRIBUTIONS DAILY! 💫⭐",
   "dependencies": {
     "axios": "^0.24.0",
     "chalk": "4.1.2",
