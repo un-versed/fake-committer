@@ -1,7 +1,7 @@
 # FakeCommitter
 [![npm version](https://img.shields.io/npm/v/fake-committer.svg)](https://www.npmjs.com/package/fake-committer)
 
-![logo](./docs/FakeCommitter.png "FkeCommitter")
+![logo](https://github.com/un-versed/fake-committer/raw/master/docs/FakeCommitter.png "FakeCommitter")
 
 
 FakeCommitter is a tool for those who want to be a GITHUB POPSTAR WITH A LOT OF CONTRIBUTIONS DAILY!
